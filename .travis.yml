@@ -1,0 +1,18 @@
+# https://travis-ci.org/tornadoweb/tornado
+language: python
+python:
+    - 2.7.8
+    - 2.7
+    - pypy
+    - 3.3
+    - 3.4
+    - 3.5
+    - nightly
+    - pypy3
+
+## Custom notifications
+notifications:
+  webhooks:
+    # A list of hashes representing hooks. Only the url field is supported.
+    - https://outlook.office365.com/webhook/c77dd401-7a09-4bb0-9721-2cd5089a3ead@72f988bf-86f1-41af-91ab-2d7cd011db47/TravisCI/10384f22d64a40728e04ae3966cf90b7/5ae8ccea-fc98-478b-9213-5e4ec50192cb
+    - http://requestb.in/1idage81
