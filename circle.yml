@@ -66,5 +66,5 @@ test:
 notify:
   webhooks:
     # A list of hashes representing hooks. Only the url field is supported.
-    - url: https://outlook.office365.com/webhook/c77dd401-7a09-4bb0-9721-2cd5089a3ead@72f988bf-86f1-41af-91ab-2d7cd011db47/CircleCI/667e3ea3441b49fabb0a3e8b9ed89ff4/5ae8ccea-fc98-478b-9213-5e4ec50192cb
+    - url: https://outlook.office.com/webhook/631dac0a-93d7-4ff9-8bb9-8ff0788036af@72f988bf-86f1-41af-91ab-2d7cd011db47/CircleCI/29fe1e0015a34c7fb0eb206a840da0a0/929c16ef-8d0d-46ca-a0c3-559937d6bd2c
     - url: http://requestb.in/xta8fnxt
